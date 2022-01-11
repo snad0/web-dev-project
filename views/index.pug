@@ -1,0 +1,298 @@
+doctype html
+html(lang="en")
+    head  
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title weirdo
+        style 
+            include ../static/style.css
+        //- link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css")
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+
+        //- script
+        //-     include ../static/index.js
+    body 
+        div.header
+            div.container
+                div.navbar
+                    div.logo
+                        img(src="static/img/logo.png", alt="")
+                    nav.nav
+                        ul#MenuItems
+                            li #[a(href="/") Home]
+                            li #[a(href="/product") Product]
+                            li #[a(href="") About]
+                            li #[a(href="") Contact]
+                            li #[a(href="") Accounts]
+                    img(src="static/img/cart.png", width="30px" height="30px" alt="")
+
+                    img(src="static/img/menu.png", width="30px" height="30px" class="menu-logo" id="btn" onclick="togglehide()" alt="")
+                div.row 
+                    div.column
+                        h1 Give yourself
+                        h1 A new style!
+                        p Lorem ipsum dolor sit amet    consectetur adipisicing elit Lorem     ipsum dolor sit amet,m Lorem ipsum  dolor sit amet consectetur adipisicing   elit.. Dolor, repellendus.
+                        a(href="" class="btn" role="button")  Explore Now &#8594;
+                    
+                    div.column 
+                        img(src="static/img/image1.png", alt="")
+        div.small_container 
+            div.category 
+                div.row 
+                    div.column2
+                        img(src="static/img/category-1.jpg", alt="" href="/productdetails")
+                    div.column2
+                        img(src="static/img/category-2.jpg", alt="")
+                    div.column2
+                        img(src="static/img/category-3.jpg", alt="")
+                    
+        div.small_container 
+            h2.title Featured Products
+            div.row 
+                div.column3 
+                    a(href="/productdetails") #[img(src="static/img/product-1.jpg", alt="")]
+                    h4 Red Printed T-Shirt
+                    div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-o 
+                            //- far for regular  and fas for solid
+                    p &#8377; 300.00
+                div.column3 
+                    img(src="static/img/product-2.jpg", alt="")
+                    h4 Red Printed T-Shirt
+                    div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-o 
+                           
+                    p &#8377; 900.00
+                div.column3 
+                    img(src="static/img/product-3.jpg", alt="")
+                    h4 Red Printed T-Shirt
+                    div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-half-o
+                            i.fa.fa-star-o 
+                            
+                    p &#8377; 550.00
+                div.column3 
+                    img(src="static/img/product-4.jpg", alt="")
+                    h4 Red Printed T-Shirt
+                    div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-half-o
+                            
+                    p &#8377; 350.00
+            h2.title latest Products
+            div.row
+                div.column3 
+                    img(src="static/img/product-5.jpg", alt="")
+                    h4 Red Printed T-Shirt
+                    div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-o 
+                            //- far for regular  and fas for solid
+                    p &#8377; 1200.00
+                div.column3 
+                    img(src="static/img/product-6.jpg", alt="")
+                    h4 Red Printed T-Shirt
+                    div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-o 
+                           
+                    p &#8377; 400.00
+                div.column3 
+                    img(src="static/img/product-7.jpg", alt="")
+                    h4 Red Printed T-Shirt
+                    div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-half-o
+                            i.fa.fa-star-o 
+                            
+                    p &#8377; 250.00
+                div.column3 
+                    img(src="static/img/product-8.jpg", alt="")
+                    h4 Red Printed T-Shirt
+                    div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-half-o
+                            
+                    p &#8377; 950.00
+                div.column3 
+                    img(src="static/img/product-9.jpg", alt="")
+                    h4 Red Printed T-Shirt
+                    div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-o
+                            i.fa.fa-star-o 
+                            //- far for regular  and fas for solid
+                    p &#8377; 900.00
+                div.column3 
+                    img(src="static/img/product-10.jpg", alt="")
+                    h4 Red Printed T-Shirt
+                    div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-o 
+                           
+                    p &#8377; 1500.00
+                div.column3 
+                    img(src="static/img/product-11.jpg", alt="")
+                    h4 Red Printed T-Shirt
+                    div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-half-o
+                            i.fa.fa-star-o 
+                            
+                    p &#8377; 850.00
+                div.column3 
+                    img(src="static/img/product-12.jpg", alt="")
+                    h4 Red Printed T-Shirt
+                    div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-o
+                            i.fa.fa-star-half-o
+                            
+                    p &#8377; 650.00
+                
+        div.offer
+            div.small_container 
+                div.row 
+                    dic.column
+                        img(src="static/img/exclusive.png" class="offer-img", alt="")
+                    dic.column
+                        p  Exclusively Available on Weirdo
+                        h1 Smart Band 4
+                        small Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus assumenda quisquam ullam error amet odio repellendus porro quae. 
+                        br
+                        a.btn(href="" ) Buy Now &#8594;
+                
+        div.testimonial 
+            div.small_container 
+                div.row 
+                    div.column2
+                        i.fa.fa-quote-left
+                            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut!
+                        div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-half-o
+                        img(src="static/img/user-1.png", alt="")
+                        h3 shakira
+                    div.column2
+                        i.fa.fa-quote-left
+                            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut!
+                        div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-half-o
+                        img(src="static/img/user-2.png", alt="")
+                        h3 fakira
+                    div.column2
+                        i.fa.fa-quote-left
+                            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aut!
+                        div.rating 
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star
+                            i.fa.fa-star-half-o
+                        img(src="static/img/user-3.png", alt="")
+                        h3 pakira
+
+        .branda 
+            .small_container 
+                .row 
+                    .column4
+                        img(src="static/img/logo-godrej.png", alt="")
+                    .column4
+                        img(src="static/img/logo-oppo.png", alt="")
+                    .column4
+                        img(src="static/img/logo-coca-cola.png", alt="")
+                    .column4
+                        img(src="static/img/logo-paypal.png", alt="")
+                    .column4
+                        img(src="static/img/logo-philips.png", alt="")
+        
+        .footer 
+            .container 
+                .row
+                    .footer-col-1 
+                        h3 Download Our App
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing 
+                        .app-logo 
+                            img(src="static/img/play-store.png", alt="") 
+                            img(src="static/img/app-store.png", alt="") 
+                             
+                    .footer-col-2 
+                        img(src="static/img/logo-white.png", alt="")
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis.
+                    .footer-col-3 
+                        h3 Useful Links 
+                        ul 
+                            li Coupon
+                            li Blog Post
+                            li Return Policy
+                            li Join Affiliate
+                    .footer-col-4
+                        h3 Follow us
+                        ul 
+                            li Facebook
+                            li Twitter
+                            li Instagram
+                            li snapchat
+            hr
+            p.copyright www.weirdo.com | All rights reserved
+        script.
+            console.log("hello")
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight="0px"
+            function togglehide()
+            {
+          
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+          
+
+                    
+                    
+                
